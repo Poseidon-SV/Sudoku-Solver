@@ -1,8 +1,5 @@
 # SUDOKU_SOLVER
 
-# from typing_extensions import TypeGuard
-
-
 def find_next_empty(puzzle):
     for row in range(9):
         for col in range(9):
@@ -71,6 +68,7 @@ if __name__ == '__main__':
     print(solve_sudoku(example_board))
     print(example_board)
 
+# Solved Board(Output)    
 [[3, 9, 1, 8, 5, 6, 4, 2, 7], 
  [8, 6, 7, 2, 3, 4, 9, 1, 5],
  [4, 2, 5, 7, 1, 9, 6, 8, 3],
